@@ -1,5 +1,4 @@
 GAME.emit = function(order,data,force){
-	GAME.emit = function(order,data,force){
 	if(!this.is_loading||force){
 		this.load_start();
 		this.socket.emit(order,data);
